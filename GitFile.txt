@@ -1,0 +1,86 @@
+https://github.com/jyotik16/Qr-Reader-rest-api.git
+MY tokens::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
+
+$ git config --global user.email
+
+
+git checkout filename 
+git checkout -f
+
+git commit -m ""
+git commit -a
+
+git commit -a -m"" --> skip statge area direct commit
+
+git add .
+git add -A
+
+git diff --> compare working tree with stating area
+git diff --staged  -->compare stating area with last commit
+
+
+git status
+
+git log
+git log -p -1
+
+
+git rm --cached filename -->remove only from stating area
+
+git rm filename --> remove from working tree and commit
+
+
+
+$ ssh-keygen -t rsa -b 4096 -C "email"
+
+$ eval $(ssh-agent -s)
+
+$ ssh-ad ~/.ssh/id_rsa 
+
+$ cat ~/.ssh/id_rsa.pub
+
+git push origin -u master 
+
+
+git status -s :: MM filename First name -> stating area mai modified file 
+sec M -> working tree mai filemodified
+
+touch .gitignore :: create this file
+
+/file.log -> jha par gitgnore vhi par ignore krna
+
+*.log -->all files to ignore
+
+git checkout -b branchname
+
+git remote add origin https://github.com/jyotik16/Qr-Reader-rest-api.git
+
+url ka name ->origin hogya h
+
+git remote -v --> where u get fetch or Push
+
+
+git push origin master 
+
+username jyotik16
+password Mytoken
+
+
+git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
+
+git remote -v
+> origin  https://github.com/USERNAME/REPOSITORY.git (fetch)
+> origin  https://github.com/USERNAME/REPOSITORY.git (push)
+
+
+
+
+
+
+
+
+
+ 
+
+
+
